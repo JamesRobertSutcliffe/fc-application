@@ -25,7 +25,6 @@ h1 {
 
 .container div {
     font-family: 'Courier New', Courier, monospace;
-    /* flex-grow: 1; */
     margin: 5px;
     padding: 5px;
     background-color: rgb(196, 32, 32);
