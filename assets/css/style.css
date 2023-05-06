@@ -1,3 +1,16 @@
 * {
     box-sizing: border-box;
 }
+
+.gallery {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    background-color: aqua;
+    float: center;
+}
