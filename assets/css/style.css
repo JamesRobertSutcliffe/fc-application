@@ -1,3 +1,5 @@
+/* Global Values */
+
 :root {
     --primary: rgb(252, 252, 212);
     --secondary: rgb(10, 68, 61);
@@ -18,11 +20,15 @@ h1 {
     font-size: 50px;
 }
 
+
+/* Section Sizing */
 .gallery {
     height: 80vh;
     width: 100vw;
 }
 
+
+/* Flex Container */
 .container {
     display: flex;
     flex-flow: row wrap;
@@ -32,6 +38,7 @@ h1 {
     height: 100%;
 }
 
+/* Flex Items */
 .container div {
     font-family: 'Courier New', Courier, monospace;
     margin: 5px;
