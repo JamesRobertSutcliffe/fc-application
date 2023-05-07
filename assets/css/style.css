@@ -3,6 +3,8 @@
 :root {
     --primary: rgb(252, 252, 212);
     --secondary: rgb(10, 68, 61);
+    --tertiary: #c3fcf2;
+    --other: #649b92;
 }
 
 * {
