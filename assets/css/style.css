@@ -5,6 +5,8 @@
     --secondary: rgb(10, 68, 61);
     --tertiary: #c3fcf2;
     --other: #649b92;
+    --light-brown: #c3c39d;
+    --dark-brown: #484838;
 }
 
 * {
