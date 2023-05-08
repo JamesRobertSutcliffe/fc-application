@@ -44,10 +44,21 @@ h1 {
 
 /* Flex Items */
 .container div {
+    display: flex;
+    flex-direction: column-reverse;
     font-family: 'Courier New', Courier, monospace;
     margin: 5px;
-    padding: 5px;
     width: 30%;
     border: solid 4px var(--secondary);
     border-radius: 2%;
+}
+
+.container div div {
+    background-color: var(--dark-brown);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0%;
+    border: none;
+    height: 30%;
 }
