@@ -13,7 +13,6 @@
     box-sizing: border-box;
     line-height: normal;
     letter-spacing: 0.03em;
-
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--primary);
 }
@@ -27,6 +26,21 @@ h1 {
 }
 
 
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+nav a {
+    padding: 5px;
+    margin: 30px;
+    font-weight: bold;
+    color: var(--secondary);
+    font-size: 25px;
+}
+
 /* Hero Section */
 
 .landing {
@@ -39,8 +53,6 @@ h1 {
     top: 50%;
     width: 100%;
 }
-
-
 
 
 /* Projects Section */
@@ -132,11 +144,11 @@ button:hover {
     background-color: var(--tertiary) !important;
 }
 
-h2:hover {
+.container div div h2:hover {
     color: var(--tertiary) !important;
 }
 
-p:hover {
+.container div div p:hover {
     color: var(--tertiary) !important;
     border-color: var(--tertiary) !important;
 }
