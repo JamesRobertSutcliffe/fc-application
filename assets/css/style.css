@@ -44,7 +44,6 @@ nav a {
 /* Hero Section */
 
 .landing {
-    height: 90vh;
     width: 100vw;
 }
 
@@ -55,4 +54,79 @@ nav a {
 
 .landing-container h1 {
     text-align: left;
+}
+
+
+/* Images block section */
+.images {
+    height: 100vh;
+    width: 100vw;
+}
+
+.images-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    gap: 5px;
+}
+
+
+/* Box-A */
+.flex-child-a {
+    width: 49%;
+    height: 70%;
+    background-color: var(--secondary);
+}
+
+.flex-child-a h2 {
+    text-align: right;
+    background-color: var(--secondary);
+    color: var(--primary);
+    margin: 80px;
+    padding: auto;
+}
+
+.flex-child-a h3 {
+    text-align: right;
+    background-color: var(--secondary);
+    color: var(--tertiary);
+    margin: 80px;
+    padding: auto;
+    opacity: 0;
+}
+
+.flex-child-a:hover {
+    width: 49%;
+    height: 70%;
+    background-color: var(--secondary);
+    scale: 95%;
+}
+
+.flex-child-a:hover h3 {
+    opacity: 100;
+}
+
+/* Box B */
+
+.flex-child-b {
+    width: 50%;
+    height: 70%;
+    background-color: var(--tertiary);
+
+}
+
+.flex-child-b:hover {
+    width: 50%;
+    height: 70%;
+    background-color: var(--tertiary);
+    scale: 95%;
+}
+
+.flex-child-c {
+    width: 99.5%;
+    height: 30%;
+    background-color: var(--dark-brown);
 }
