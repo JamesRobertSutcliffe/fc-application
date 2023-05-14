@@ -16,6 +16,10 @@
     background-color: var(--primary);
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     text-align: center;
     margin: 15px;
@@ -38,7 +42,6 @@ nav a {
     margin: 30px;
     color: var(--secondary);
     font-size: 25px;
-    text-decoration: none;
 }
 
 /* Hero Section */
@@ -119,15 +122,43 @@ nav a {
     width: 50%;
     height: 70%;
     background-color: var(--tertiary);
-
+    transition: 0.3s;
 }
 
 .flex-child-b:hover {
-    width: 50%;
-    height: 70%;
-    background-color: var(--tertiary);
     scale: 95%;
 }
+
+.flex-child-b h2 {
+    text-align: left;
+    background-color: var(--tertiary);
+    color: var(--secondary);
+    margin: 80px;
+    padding: auto;
+}
+
+.flex-child-b h3 {
+    text-decoration: none;
+    text-align: left;
+    background-color: var(--tertiary);
+    color: var(--dark-brown);
+    margin: 80px;
+    padding: auto;
+    opacity: 0;
+
+}
+
+.flex-child-b:hover h3 {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.flex-child-b h3:hover {
+    opacity: 1;
+}
+
+
+/* box c */
 
 .flex-child-c {
     width: 99.5%;
