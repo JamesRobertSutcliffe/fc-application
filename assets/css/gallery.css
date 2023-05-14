@@ -13,6 +13,9 @@
     box-sizing: border-box;
     line-height: normal;
     font-family: 'poppins';
+}
+
+body {
     background-color: var(--primary);
 }
 
@@ -71,7 +74,6 @@ nav a {
     font-family: 'Courier New', Courier, monospace;
     width: 30%;
     border: solid 4px var(--secondary);
-    border-radius: 2%;
 }
 
 /* Text / Button container + Child attributes*/
@@ -93,7 +95,6 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-color: var(--secondary);
     width: 100%;
     margin: 0;
     padding: 0;
@@ -106,12 +107,10 @@ nav a {
 
 .container div div h2 {
     color: var(--primary);
-    background-color: var(--secondary);
     margin: auto;
 }
 
 .container div div p {
-    background-color: var(--secondary);
     color: var(--primary);
     margin: auto;
     padding: 5px;
@@ -154,4 +153,39 @@ button:hover {
 .website {
     background-image: url("./../images/hobby.png");
     background-size: contain;
+}
+
+/* footer */
+
+footer {
+    margin-top: 20px;
+    height: 35vh;
+    width: 100%;
+    background-color: var(--secondary);
+}
+
+.footer-container {
+    display: flex;
+    align-items: left;
+    flex-flow: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    color: var(--primary);
+}
+
+
+footer img {
+    padding: 5px;
+    margin: 10px;
+    height: 100px;
+    display: inline;
+    transition: 0.3s;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--primary);
+
 }

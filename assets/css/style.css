@@ -13,6 +13,10 @@
     box-sizing: border-box;
     line-height: normal;
     font-family: 'poppins';
+
+}
+
+body {
     background-color: var(--primary);
 }
 
@@ -91,7 +95,6 @@ nav a {
 
 .flex-child-a h2 {
     text-align: right;
-    background-color: var(--secondary);
     color: var(--primary);
     margin: 80px;
     padding: auto;
@@ -99,7 +102,6 @@ nav a {
 
 .flex-child-a h3 {
     text-align: right;
-    background-color: var(--secondary);
     color: var(--tertiary);
     margin: 80px;
     padding: auto;
@@ -131,7 +133,6 @@ nav a {
 
 .flex-child-b h2 {
     text-align: left;
-    background-color: var(--tertiary);
     color: var(--secondary);
     margin: 80px;
     padding: auto;
@@ -140,7 +141,6 @@ nav a {
 .flex-child-b h3 {
     text-decoration: none;
     text-align: left;
-    background-color: var(--tertiary);
     color: var(--dark-brown);
     margin: 80px;
     padding: auto;
@@ -175,7 +175,6 @@ nav a {
 }
 
 .flex-child-c h2 {
-    background-color: var(--dark-brown);
     color: var(--primary);
     opacity: 0.5;
     transition: 0.3s;
@@ -186,6 +185,38 @@ nav a {
     scale: 105%;
 }
 
-.flex-child-c a {
-    background-color: var(--dark-brown);
+
+/* footer */
+
+footer {
+    margin-top: 20px;
+    height: 35vh;
+    width: 100%;
+    background-color: var(--secondary);
+}
+
+.footer-container {
+    display: flex;
+    align-items: left;
+    flex-flow: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    color: var(--primary);
+}
+
+
+footer img {
+    padding: 5px;
+    margin: 10px;
+    height: 100px;
+    display: inline;
+    transition: 0.3s;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--primary);
+
 }

@@ -7,7 +7,7 @@ Homepage:
 
 - Adds pics to 2 boxes (see inspo page for design)
 - add design to bottom brown box (see lines on hero sections f + C page: https://www.foundersandcoders.com/)
-- Add footer with contact info (secondary background full width of page / add contact info in here (See inspo page))
+- Add footer - just try and overlay images with primary colour
 
 About me:
 - Design whole page
