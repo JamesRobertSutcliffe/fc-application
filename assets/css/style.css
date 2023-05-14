@@ -164,4 +164,28 @@ nav a {
     width: 99.5%;
     height: 30%;
     background-color: var(--dark-brown);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.flex-child-c:hover {
+    scale: 95%;
+}
+
+.flex-child-c h2 {
+    background-color: var(--dark-brown);
+    color: var(--primary);
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.flex-child-c h2:hover {
+    opacity: 1;
+    scale: 105%;
+}
+
+.flex-child-c a {
+    background-color: var(--dark-brown);
 }
