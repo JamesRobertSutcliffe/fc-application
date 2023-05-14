@@ -79,6 +79,11 @@ nav a {
     width: 49%;
     height: 70%;
     background-color: var(--secondary);
+    transition: 0.3s;
+}
+
+.flex-child-a:hover {
+    scale: 95%;
 }
 
 .flex-child-a h2 {
@@ -98,16 +103,15 @@ nav a {
     opacity: 0;
 }
 
-.flex-child-a:hover {
-    width: 49%;
-    height: 70%;
-    background-color: var(--secondary);
-    scale: 95%;
+.flex-child-a:hover h3 {
+    opacity: 0.5;
+    transition: 0.3s;
 }
 
-.flex-child-a:hover h3 {
-    opacity: 100;
+.flex-child-a h3:hover {
+    opacity: 1;
 }
+
 
 /* Box B */
 
