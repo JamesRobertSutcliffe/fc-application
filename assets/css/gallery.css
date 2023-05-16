@@ -106,7 +106,7 @@ nav a {
 }
 
 .container div div h2 {
-    color: var(--primary);
+    color: var(--tertiary);
     margin: auto;
 }
 
@@ -133,14 +133,14 @@ button:hover {
     background-color: var(--tertiary) !important;
 }
 
-.container div div h2:hover {
+/* .container div div h2:hover {
     color: var(--tertiary) !important;
 }
 
 .container div div p:hover {
     color: var(--tertiary) !important;
     border-color: var(--tertiary) !important;
-}
+} */
 
 
 /* Image cards */
