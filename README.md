@@ -2,7 +2,6 @@
 
 to do:
 
-
 Homepage:
 
 - Adds pics to 2 boxes (see inspo page for design)
@@ -21,6 +20,7 @@ Gallery:
 FEATURES:
 
 - colour switch at end between primary and secondary
+- Make entire site responsive
 
 Refs:
 

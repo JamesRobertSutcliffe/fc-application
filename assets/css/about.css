@@ -87,6 +87,7 @@ nav a {
     height: 100%;
     background-color: var(--secondary);
     transition: 0.3s;
+    overflow: scroll;
 }
 
 .flex-child-a:hover {
@@ -103,12 +104,14 @@ nav a {
     color: var(--tertiary);
     margin: 80px;
     padding: auto;
-    opacity: 0;
+    opacity: 1;
+    background-color: var(--tertiary);
 }
 
 .flex-child-a:hover h3 {
     opacity: 0.5;
-    transition: 0.3s;
+    transition: 0.5s;
+    background-color: var(--secondary);
 }
 
 .flex-child-a h3:hover {
@@ -123,6 +126,7 @@ nav a {
     height: 100%;
     background-color: var(--tertiary);
     transition: 0.3s;
+    overflow: scroll;
 }
 
 .flex-child-b:hover {
@@ -140,13 +144,14 @@ nav a {
     color: var(--dark-brown);
     margin: 80px;
     padding: auto;
-    opacity: 0;
-
+    opacity: 1;
+    background-color: var(--dark-brown);
 }
 
 .flex-child-b:hover h3 {
     opacity: 0.5;
-    transition: 0.3s;
+    transition: 0.5s;
+    background-color: var(--tertiary);
 }
 
 .flex-child-b h3:hover {
@@ -161,6 +166,7 @@ nav a {
     height: 100%;
     background-color: var(--dark-brown);
     transition: 0.3s;
+    overflow: scroll;
 }
 
 .flex-child-c:hover {
@@ -175,16 +181,19 @@ nav a {
 
 .flex-child-c h3 {
     text-decoration: none;
-    color: var(--tertiary);
+    color: var(--secondary);
     margin: 80px;
     padding: auto;
-    opacity: 0;
+    opacity: 1;
+    background-color: var(--secondary);
 
 }
 
 .flex-child-c:hover h3 {
     opacity: 0.5;
-    transition: 0.3s;
+    transition: 0.5s;
+    background-color: var(--dark-brown);
+    color: var(--tertiary);
 }
 
 .flex-child-c h3:hover {
