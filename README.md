@@ -6,14 +6,14 @@ Homepage:
 
 - Adds pics to 2 boxes (see inspo page for design)
 - add design to bottom brown box (see lines on hero sections f + C page: https://www.foundersandcoders.com/)
-- Add footer - just try and overlay images with primary colour
+- footer - try and overlay contact images with primary colour
 
 About me:
-- Design whole page
+- Design second section (maybe 4 cards?)
+- add info - talk about when I started coding / what I have achieved (self taught / projects) / front end bootcamp / what I like about coding and why I want to do F + C
 
 Gallery:
 
-- fix transitions on buttons to match homepage
 - add correct projects to cards
 - add modals with info about projects
 
