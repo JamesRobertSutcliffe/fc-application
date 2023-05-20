@@ -163,11 +163,12 @@ nav a {
 .flex-child-c {
     width: 99.5%;
     height: 30%;
-    background-color: var(--dark-brown);
+    /* background-color: var(--dark-brown); */
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.3s;
+    background: repeating-radial-gradient(circle at 90%, var(--dark-brown), var(--dark-brown) 10px, var(--primary) 10px, var(--primary) 20px);
 }
 
 .flex-child-c:hover {
@@ -176,8 +177,10 @@ nav a {
 
 .flex-child-c h2 {
     color: var(--primary);
-    opacity: 0.5;
+    opacity: 1;
     transition: 0.3s;
+    padding: 5px;
+    background-color: #484838;
 }
 
 .flex-child-c h2:hover {
