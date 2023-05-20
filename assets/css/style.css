@@ -165,10 +165,10 @@ nav a {
     height: 30%;
     /* background-color: var(--dark-brown); */
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     transition: 0.3s;
-    background: repeating-radial-gradient(circle at 90%, var(--dark-brown), var(--dark-brown) 10px, var(--primary) 10px, var(--primary) 20px);
+    background: repeating-conic-gradient(from 45deg at 18% 50%, var(--primary) 0deg 10deg, var(--dark-brown) 10deg 20deg, var(--secondary) 20deg 30deg);
 }
 
 .flex-child-c:hover {
@@ -177,15 +177,16 @@ nav a {
 
 .flex-child-c h2 {
     color: var(--primary);
-    opacity: 1;
+    opacity: 0.5;
     transition: 0.3s;
     padding: 5px;
-    background-color: #484838;
+    /* background-color: #484838; */
+    scale: 85%;
 }
 
 .flex-child-c h2:hover {
     opacity: 1;
-    scale: 105%;
+    scale: 90%;
 }
 
 
