@@ -163,7 +163,6 @@ nav a {
 .flex-child-c {
     width: 99.5%;
     height: 30%;
-    /* background-color: var(--dark-brown); */
     display: flex;
     justify-content: right;
     align-items: center;
@@ -180,7 +179,6 @@ nav a {
     opacity: 0.5;
     transition: 0.3s;
     padding: 5px;
-    /* background-color: #484838; */
     scale: 85%;
 }
 

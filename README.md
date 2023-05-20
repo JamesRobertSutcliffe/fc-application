@@ -4,12 +4,11 @@ to do:
 
 Homepage:
 
-- Adds pics to 2 boxes (see inspo page for design)
-- add design to bottom brown box (see lines on hero sections f + C page: https://www.foundersandcoders.com/)
+- Adds pics to 2 boxes (see inspo page for design) (use photoshop to do this) - add photoshop to laptop
 - footer - try and overlay contact images with primary colour
 
 About me:
-- Design second section (maybe 4 cards?)
+- Design second section - have each card covered by linear / radial blurs / on hover background turns solid and text revealed
 - add info - talk about when I started coding / what I have achieved (self taught / projects) / front end bootcamp / what I like about coding and why I want to do F + C
 
 Gallery:
