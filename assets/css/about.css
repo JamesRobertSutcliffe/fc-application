@@ -48,12 +48,6 @@ nav a {
     font-size: 25px;
 }
 
-span:hover {
-    background-color: var(--tertiary);
-    transition: 0.5s;
-    padding: 5px;
-}
-
 /* Hero Section */
 
 .landing {
@@ -177,6 +171,12 @@ span:hover {
     background-color: var(--dark-brown);
     transition: 0.3s;
     overflow: scroll;
+}
+
+.flex-child-c span:hover {
+    background-color: var(--tertiary);
+    transition: 0.5s;
+    padding: 5px;
 }
 
 .flex-child-c:hover {
