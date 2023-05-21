@@ -4,7 +4,7 @@ to do:
 
 Homepage:
 
-- Adds pics to 2 boxes (see inspo page for design) (use photoshop to do this) - add photoshop to laptop
+- complete / possible change first box image
 
 About me:
 - Design second section - have each card covered by linear / radial blurs / on hover background turns solid and text revealed

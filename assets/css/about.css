@@ -48,6 +48,12 @@ nav a {
     font-size: 25px;
 }
 
+span:hover {
+    background-color: var(--tertiary);
+    transition: 0.5s;
+    padding: 5px;
+}
+
 /* Hero Section */
 
 .landing {

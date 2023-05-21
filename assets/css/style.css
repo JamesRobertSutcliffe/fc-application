@@ -87,6 +87,7 @@ nav a {
     height: 70%;
     background-color: var(--secondary);
     transition: 0.3s;
+    justify-content: flex-end;
 }
 
 .flex-child-a:hover {
@@ -112,6 +113,11 @@ nav a {
     opacity: 0.5;
     transition: 0.3s;
 }
+
+.flex-child-a:hover img {
+    scale: 110%;
+}
+
 
 .flex-child-a h3:hover {
     opacity: 1;
@@ -151,6 +157,10 @@ nav a {
 .flex-child-b:hover h3 {
     opacity: 0.5;
     transition: 0.3s;
+}
+
+.flex-child-b:hover img {
+    scale: 110%;
 }
 
 .flex-child-b h3:hover {
@@ -215,6 +225,10 @@ footer img {
     height: 100px;
     display: inline;
     transition: 0.3s;
+}
+
+footer img:hover {
+    scale: 110%
 }
 
 footer a {
