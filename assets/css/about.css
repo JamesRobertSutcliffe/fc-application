@@ -45,7 +45,7 @@ nav a {
     padding: 5px;
     margin: 30px;
     color: var(--secondary);
-    font-size: 25px;
+    font-size: 26px;
 }
 
 /* Hero Section */
@@ -131,6 +131,12 @@ nav a {
     overflow: scroll;
 }
 
+.flex-child-b span:hover {
+    background-color: var(--primary);
+    transition: 0.5s;
+    padding: 2px;
+}
+
 .flex-child-b:hover {
     scale: 95%;
 }
@@ -174,7 +180,7 @@ nav a {
 }
 
 .flex-child-c span:hover {
-    background-color: var(--tertiary);
+    background-color: var(--secondary);
     transition: 0.5s;
     padding: 5px;
 }

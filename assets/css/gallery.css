@@ -40,7 +40,7 @@ nav a {
     padding: 5px;
     margin: 30px;
     color: var(--secondary);
-    font-size: 25px;
+    font-size: 26px;
     text-decoration: none;
 }
 
@@ -184,8 +184,11 @@ footer img {
     transition: 0.3s;
 }
 
+footer img:hover {
+    scale: 110%
+}
+
 footer a {
     text-decoration: none;
     color: var(--primary);
-
 }
