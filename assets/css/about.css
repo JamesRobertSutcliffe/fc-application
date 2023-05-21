@@ -107,17 +107,19 @@ span:hover {
 }
 
 .flex-child-a h3 {
-    color: var(--tertiary);
+    color: transparent;
     margin: 80px;
     padding: auto;
     opacity: 1;
-    background-color: var(--tertiary);
+    background: repeating-conic-gradient(from 45deg at 50% 50%, var(--primary) 0deg 10deg, var(--primary) 10deg 20deg, var(--secondary) 20deg 30deg);
+    transition: 0.5s;
 }
 
 .flex-child-a:hover h3 {
+    color: var(--tertiary);
     opacity: 0.5;
     transition: 0.5s;
-    background-color: var(--secondary);
+    background: var(--secondary);
 }
 
 .flex-child-a h3:hover {
@@ -147,17 +149,19 @@ span:hover {
 
 .flex-child-b h3 {
     text-decoration: none;
-    color: var(--dark-brown);
+    color: transparent;
     margin: 80px;
     padding: auto;
     opacity: 1;
-    background-color: var(--dark-brown);
+    background: repeating-radial-gradient(circle at 50%, var(--tertiary), var(--tertiary) 10px, var(--dark-brown) 10px, var(--dark-brown) 20px);
+    transition: 0.5s;
 }
 
 .flex-child-b:hover h3 {
+    color: var(--dark-brown);
     opacity: 0.5;
     transition: 0.5s;
-    background-color: var(--tertiary);
+    background: var(--tertiary);
 }
 
 .flex-child-b h3:hover {
@@ -236,8 +240,11 @@ footer img {
     transition: 0.3s;
 }
 
+footer img:hover {
+    scale: 110%
+}
+
 footer a {
     text-decoration: none;
     color: var(--primary);
-
 }
