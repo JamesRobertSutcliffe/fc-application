@@ -191,19 +191,20 @@ span:hover {
 
 .flex-child-c h3 {
     text-decoration: none;
-    color: var(--secondary);
+    color: transparent;
     margin: 80px;
     padding: auto;
     opacity: 1;
-    background-color: var(--secondary);
+    background: repeating-linear-gradient(0.5turn, transparent, var(--secondary) 20px);
 
 }
 
 .flex-child-c:hover h3 {
     opacity: 0.5;
     transition: 0.5s;
-    background-color: var(--dark-brown);
+    background: var(--dark-brown);
     color: var(--tertiary);
+    transition: 0.5s;
 }
 
 .flex-child-c h3:hover {
