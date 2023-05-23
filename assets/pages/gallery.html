@@ -34,7 +34,7 @@
     <!-- Modals -->
 
     <dialog id="movie-modal" class="modal">
-        <h1>Movie Database</h1>
+        <h2>Movie Database</h2>
         <p>A group project in which users search for movies info which are then retrieved from the OMDb API and rendered
             to the page, featuring searched movie info, notifications and api driven links to places to stream. Users
             can create a persistent favourite movie list which is saved to local storage which offers suggestions for
@@ -42,13 +42,28 @@
         <button id="movie-modal-close">Close</button>
     </dialog>
 
-    <dialog id="movie-modal" class="modal">
-        <h1>Movie Database</h1>
-        <p>A group project in which users search for movies info which are then retrieved from the OMDb API and rendered
-            to the page, featuring searched movie info, notifications and api driven links to places to stream. Users
-            can create a persistent favourite movie list which is saved to local storage which offers suggestions for
-            similar movies.</p>
-        <button id="movie-modal-close">Close</button>
+    <dialog id="wordle-modal" class="modal">
+        <h2>Worldle with Server</h2>
+        <p>This full-stack project clones the classic online word game Worldle that runs daily on the New York Times
+            website. The base frameworks for this project are React, Node, Express and Json. The front-end and logic of
+            the game is built and assembled in react. I also created a restful API with Express.js to GET and POST
+            highscores.</p>
+        <button id="wordle-modal-close">Close</button>
+    </dialog>
+
+    <dialog id="portfolio-modal" class="modal">
+        <h2>Portfolio</h2>
+        <p>A portfolio built in react and utilising some javascript / JSON logic to allow the user to get to know me,
+            contact me and take a look at my programming work.</p>
+        <button id="portfolio-modal-close">Close</button>
+    </dialog>
+
+    <dialog id="team-modal" class="modal">
+        <h2>Team Profile Builder</h2>
+        <p>The team profile generator is a backend node.js command line application that takes in user information to
+            build a software engineering team, then generates CSS styled HTML document displaying information on team
+            members.</p>
+        <button id="team-modal-close">Close</button>
     </dialog>
 
     <!-- Cards -->
@@ -84,7 +99,7 @@
                         <p>REACT | NODE | EXPRESS</p>
                     </div>
                     <div>
-                        <button>More Info</button>
+                        <button id="wordle-modal-open">More Info</button>
                     </div>
                 </div>
             </div>
@@ -95,7 +110,7 @@
                         <p>REACT | JSON | BOOTSTAP</p>
                     </div>
                     <div>
-                        <button>More Info</button>
+                        <button id="portfolio-modal-open">More Info</button>
                     </div>
                 </div>
             </div>
@@ -106,7 +121,7 @@
                         <p>HTML | CSS | NODE</p>
                     </div>
                     <div>
-                        <button>More Info</button>
+                        <button id="team-modal-open">More Info</button>
                     </div>
                 </div>
             </div>
