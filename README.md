@@ -11,14 +11,15 @@ About me:
 
 Gallery:
 
-- add correct projects to cards
-- add modals with info about projects
+- Add design to modals - Project images (or gifs?) / add links / keep general modal design in line with theme
+- Add final game task card / review chosed projects
 
 FEATURES:
 
-- colour switch at end between primary and secondary
 - Make entire site responsive
+- colour switch at end between primary and secondary
 - check margins on footer
+- Make second homepage link to why web dev link to correct section of page
 
 Refs:
 
