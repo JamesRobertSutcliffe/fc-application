@@ -224,3 +224,9 @@ footer a {
     text-decoration: none;
     color: var(--primary);
 }
+
+/* MODAL */
+
+.modal {
+    width: 50%;
+}
