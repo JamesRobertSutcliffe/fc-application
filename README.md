@@ -17,9 +17,8 @@ Gallery:
 FEATURES:
 
 - Make entire site responsive
-- colour switch at end between primary and secondary
+- colour switch at end between primary and secondary (utilise chat gpt)
 - check margins on footer
-- Make second homepage link to why web dev link to correct section of page
 
 Refs:
 
@@ -28,5 +27,10 @@ https://www.youtube.com/watch?v=ywtkJkxJsdg
 
 Inspo:
 https://www.primate.co.uk
+
+game ideas:
+
+- colour picker code game / try and guess rbg values of a colour
+- dictionary game / select correct meanings of a word
 
 
