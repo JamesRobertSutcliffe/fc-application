@@ -230,6 +230,7 @@ footer a {
 .modal {
     width: 50%;
     text-align: center;
+    border: solid 5px var(--secondary);
 }
 
 .modal button {
@@ -245,4 +246,9 @@ footer a {
     scale: 110% !important;
     cursor: pointer;
     background-color: var(--tertiary) !important;
+}
+
+.modal div {
+    display: flex;
+    justify-content: space-between;
 }
