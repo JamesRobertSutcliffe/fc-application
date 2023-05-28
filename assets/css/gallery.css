@@ -231,6 +231,13 @@ footer a {
     width: 50%;
     text-align: center;
     border: solid 5px var(--secondary);
+    overflow: scroll;
+}
+
+.modal h1 {
+    text-decoration: underline;
+    padding: 5px;
+    margin: 5px
 }
 
 .modal button {

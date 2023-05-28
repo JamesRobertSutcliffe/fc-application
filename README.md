@@ -2,31 +2,19 @@
 
 to do:
 
-Homepage:
-
-- complete / possible change first box image
-
-About me:
-- complete for now
+1 - finsh modals sections
+2 - make responsive
+3 - add colour switchers
+4 - add game to gallery
 
 Gallery:
-
-- Add design to modals - Project images (or gifs?) / add links / keep general modal design in line with theme
+- add more projects - weather app / frontend portfolio / fruit basket
 - Add final game task card / review chosed projects
 
 FEATURES:
-
 - Make entire site responsive
 - colour switch at end between primary and secondary (utilise chat gpt)
 - check margins on footer
-
-Refs:
-
-modals
-https://www.youtube.com/watch?v=ywtkJkxJsdg
-
-Inspo:
-https://www.primate.co.uk
 
 game ideas:
 
