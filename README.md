@@ -33,4 +33,11 @@ game ideas:
 - colour picker code game / try and guess rbg values of a colour
 - dictionary game / select correct meanings of a word
 
+panagram game - 
+
+pull a 3 letter word from api 
+jumble up word
+user has to select letters in correct order
+level up to 10 letter word if all answers are correct
+
 

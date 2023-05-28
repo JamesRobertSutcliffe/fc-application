@@ -229,4 +229,20 @@ footer a {
 
 .modal {
     width: 50%;
+    text-align: center;
+}
+
+.modal button {
+    margin: auto;
+    padding: 5px;
+    border-radius: 5%;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+.modal button:hover {
+    scale: 110% !important;
+    cursor: pointer;
+    background-color: var(--tertiary) !important;
 }
