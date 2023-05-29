@@ -87,7 +87,7 @@ nav a {
     background-color: var(--secondary);
     transition: 0.3s;
     justify-content: flex-end;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .flex-child-a:hover {
@@ -131,7 +131,7 @@ nav a {
     height: 70%;
     background-color: var(--tertiary);
     transition: 0.3s;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .flex-child-b:hover {
@@ -178,6 +178,7 @@ nav a {
     align-items: center;
     transition: 0.3s;
     background: repeating-conic-gradient(from 45deg at 18% 50%, var(--primary) 0deg 10deg, var(--dark-brown) 10deg 20deg, var(--secondary) 20deg 30deg);
+    overflow: auto;
 }
 
 .flex-child-c:hover {
@@ -206,6 +207,7 @@ footer {
     height: 35vh;
     width: 100%;
     background-color: var(--secondary);
+    overflow: hidden;
 }
 
 .footer-container {
