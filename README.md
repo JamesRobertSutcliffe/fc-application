@@ -2,8 +2,6 @@
 
 to do:
 
-1 - finsh modals sections
-2 - make responsive
 3 - add colour switchers
 4 - add game to gallery
 
