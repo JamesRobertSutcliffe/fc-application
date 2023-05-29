@@ -1,21 +1,19 @@
 # project-gallery
 
 to do:
-
 3 - add colour switchers
-4 - add game to gallery
+4 - add game to gallery / address other gallery notes below
 
 Gallery:
 - add more projects - weather app / frontend portfolio / fruit basket
 - Add final game task card / review chosed projects
+- Add in more text in modals about what I have learned so far from each from each projects such as skills and how it fits into my coding journey / maybe even add a text section on page
 
 FEATURES:
-- Make entire site responsive
 - colour switch at end between primary and secondary (utilise chat gpt)
-- check margins on footer
+
 
 game ideas:
-
 - colour picker code game / try and guess rbg values of a colour
 - dictionary game / select correct meanings of a word
 
