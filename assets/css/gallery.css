@@ -276,8 +276,6 @@ footer a {
         width: 100vw;
     }
 
-
-    /* Flex Container */
     .container {
         flex-flow: row wrap;
         width: 100%;
@@ -287,6 +285,28 @@ footer a {
     .container div {
         height: 50vh;
         width: 40%;
+    }
+
+    .fc-game {
+        background-size: cover;
+    }
+
+    .movie-database {
+        background-size: cover;
+    }
+
+    .wordle {
+        background-size: cover;
+        background-position: 50% -2%
+    }
+
+    .portfolio {
+        background-size: cover;
+        background-position: 50% -2%
+    }
+
+    .team {
+        background-size: cover;
     }
 
     footer {
@@ -306,6 +326,7 @@ footer a {
     .modal {
         width: 80%;
     }
+
 }
 
 /* PHONE MEDIA QUERY */
@@ -317,8 +338,6 @@ footer a {
         width: 100vw;
     }
 
-
-    /* Flex Container */
     .container {
         flex-flow: column;
         width: 100%;
@@ -329,6 +348,26 @@ footer a {
     .container div {
         height: 50vh;
         width: 90%;
+    }
+
+    .fc-game {
+        background-size: cover;
+    }
+
+    .movie-database {
+        background-size: cover;
+    }
+
+    .wordle {
+        background-size: cover;
+    }
+
+    .portfolio {
+        background-size: cover;
+    }
+
+    .team {
+        background-size: cover;
     }
 
     footer {
