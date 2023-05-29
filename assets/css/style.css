@@ -80,7 +80,6 @@ nav a {
     gap: 5px;
 }
 
-
 /* Box-A */
 .flex-child-a {
     width: 49%;
@@ -169,7 +168,6 @@ nav a {
     opacity: 1;
 }
 
-
 /* box c */
 
 .flex-child-c {
@@ -237,4 +235,55 @@ footer img:hover {
 footer a {
     text-decoration: none;
     color: var(--primary);
+}
+
+/* MEDIA QUERY FOR IPAD AND BELOW */
+
+@media screen and (max-width: 992px) {
+
+    .landing-container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .landing-container h1 {
+        text-align: center;
+    }
+
+    .images {
+        height: auto;
+    }
+
+    .images-container {
+        flex-flow: column;
+        width: 95%;
+        height: 300vh;
+    }
+
+    .flex-child-a h3,
+    .flex-child-b h3,
+    .flex-child-c h2 {
+        opacity: 1;
+    }
+
+    .flex-child-a,
+    .flex-child-b {
+        width: 100%;
+        height: 90vh;
+    }
+
+    footer {
+        height: 50vh;
+    }
+
+    footer h2 {
+        scale: 80%
+    }
+
+    .footer-container {
+        align-items: center;
+        width: 90%;
+        margin: auto;
+    }
+
 }
