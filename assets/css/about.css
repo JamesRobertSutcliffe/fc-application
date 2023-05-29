@@ -87,7 +87,7 @@ nav a {
     height: 100%;
     background-color: var(--secondary);
     transition: 0.3s;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .flex-child-a:hover {
@@ -128,7 +128,7 @@ nav a {
     height: 100%;
     background-color: var(--tertiary);
     transition: 0.3s;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .flex-child-b span:hover {
@@ -176,7 +176,7 @@ nav a {
     height: 100%;
     background-color: var(--dark-brown);
     transition: 0.3s;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .flex-child-c span:hover {
