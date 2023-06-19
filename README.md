@@ -19,6 +19,8 @@ below:
 - 2a - A game section in about me that talks about my views on coding / challenges / aims etc.(panagram game -pioneer, community, imposter, progress) info pops up expanding on these themese then link to blog post in this section:
 
 
+info for blog post:
+
  What I particularly enjoyed about coding journey so far:
 
 I love being at forefront of tech
