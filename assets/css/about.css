@@ -67,23 +67,24 @@ nav a {
 /* Images block section */
 .images {
     width: 100vw;
+    height: 60vh;
 }
 
 .images-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    width: 90%;
-    height: 50vh;
+    width: 65%;
+    height: 100%;
     margin: auto;
-    gap: 5px;
+    gap: 2px;
     text-align: center;
 }
 
 
 /* Box-A */
 .flex-child-a {
-    width: 33%;
+    width: 32%;
     height: 100%;
     background-color: var(--secondary);
     transition: 0.3s;
@@ -124,7 +125,7 @@ nav a {
 /* Box B */
 
 .flex-child-b {
-    width: 33%;
+    width: 32%;
     height: 100%;
     background-color: var(--tertiary);
     transition: 0.3s;
@@ -172,7 +173,7 @@ nav a {
 /* box c */
 
 .flex-child-c {
-    width: 33%;
+    width: 32%;
     height: 100%;
     background-color: var(--dark-brown);
     transition: 0.3s;
