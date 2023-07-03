@@ -1,9 +1,12 @@
 # project-gallery
 
-to do:
-3 - add colour switchers
-4 - add game to gallery / address other gallery notes below
-6 - add blog to page (homepage)
+to do now:
+
+1 - Add blog widget below on home page 
+3 - Add box on about page saying how I like blogging to help myself learn and share knowledge - link to in depth blog about journey
+4 - possibly add link to game on homepage?
+5 - add colour switchers
+6 - add game to gallery / address other gallery notes below
 
 Gallery:
 - add more projects - weather app / frontend portfolio / fruit basket
@@ -34,6 +37,14 @@ Where I am now:
 Confident with HTML, CSS / JS
 Learning modern tech and full stack
 trying to utilise AI (chat GPT)
+
+Answer questions in applications
+
+Why F + C? 
+
+Why WebDev?
+
+Working in diverse team
 
 (4 words to reveal about my journey (pioneer, community, imposter, progress (getwords from F + C site)))
 
