@@ -2,9 +2,7 @@
 
 to do now:
 
-1 - Add blog widget below on home page 
-3 - Add box on about page saying how I like blogging to help myself learn and share knowledge - link to in depth blog about journey
-4 - possibly add link to game on homepage?
+4 - Add box on about page saying how I like blogging to help myself learn and share knowledge - link to in depth blog about journey
 5 - add colour switchers
 6 - add game to gallery / address other gallery notes below
 
