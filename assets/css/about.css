@@ -221,6 +221,54 @@ nav a {
 
 /* Box d */
 
+.images-2 {
+    width: 100vw;
+    height: 30vh;
+}
+
+.images-2-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.flex-child-d {
+    width: 99%;
+    height: 100%;
+    background-color: var(--other);
+    transition: 0.3s;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.flex-child-d:hover {
+    scale: 95%;
+}
+
+.flex-child-d h3 {
+    text-decoration: none;
+    color: transparent;
+    margin: 80px;
+    padding: auto;
+    opacity: 1;
+    background: repeating-linear-gradient(0.5turn, transparent, var(--secondary) 20px);
+}
+
+.flex-child-d:hover h3 {
+    opacity: 0.5;
+    transition: 0.5s;
+    background: var(--dark-brown);
+    color: var(--tertiary);
+    transition: 0.5s;
+}
+
+
+
 /* footer */
 
 footer {
