@@ -341,6 +341,54 @@ nav a {
     opacity: 1;
 }
 
+/* Section 2 Box 3 */
+
+.flex-child-c {
+    width: 32%;
+    height: 100%;
+    background-color: var(--dark-brown);
+    transition: 0.3s;
+    overflow: auto;
+}
+
+.flex-child-c span:hover {
+    background-color: var(--secondary);
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.flex-child-c:hover {
+    scale: 95%;
+}
+
+.flex-child-c h2 {
+    color: var(--primary);
+    margin: 80px;
+    padding: auto;
+}
+
+.flex-child-c h3 {
+    text-decoration: none;
+    color: transparent;
+    margin: 80px;
+    padding: auto;
+    opacity: 1;
+    background: repeating-linear-gradient(0.5turn, transparent, var(--secondary) 20px);
+
+}
+
+.flex-child-c:hover h3 {
+    opacity: 0.5;
+    transition: 0.5s;
+    background: var(--dark-brown);
+    color: var(--tertiary);
+    transition: 0.5s;
+}
+
+.flex-child-c h3:hover {
+    opacity: 1;
+}
+
 
 /* Section 3 Box d */
 
