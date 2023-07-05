@@ -2,17 +2,14 @@
 
 to do now:
 
-4 - Add box on about page saying how I like blogging to help myself learn and share knowledge - link to in depth blog about journey
+6 - add game to gallery / add more projects
+7 - add codewars icons in footer
 5 - add colour switchers
-6 - add game to gallery / address other gallery notes below
+8 - write 2 blog posts and link - / coding journey / diversity - add linsk to about me page
 
-Gallery:
-- add more projects - weather app / frontend portfolio / fruit basket
-- Add final game task card / review chosed projects
+GAME:
 
-FEATURES:
-1 - colour switch at end between primary and secondary (utilise chat gpt)
-2 - blog
+- add another game mode?
 
 info for blog post:
 
