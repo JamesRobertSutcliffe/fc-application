@@ -2,11 +2,12 @@
 
 to do now:
 
-6 - add game to gallery / add more projects (fruit basket, Weather API, React ToDo list)
-7 - add codewars icons in footer
-8 - write 2 blog posts and link - / coding journey / diversity - add linsk to about me page
-5 - add colour switchers
-10 - Add readme's / fill out application form
+1 - Write blog post about my coding journey so far
+2 - Write blog post about working in a diverse group
+3 - Link these blog posts to about me page
+4 - Read Me for application website
+5 - Read me for application game
+6 - Application form
 
 GAME:
 
