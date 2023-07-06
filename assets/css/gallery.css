@@ -171,17 +171,6 @@ button:hover {
     scale: 95%
 }
 
-.portfolio {
-    background-image: url("./../images/react_portfolio.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    transition: 0.5s;
-}
-
-.portfolio:hover {
-    scale: 95%
-}
-
 .team {
     background-image: url("./../images/team.png");
     background-size: contain;
@@ -190,6 +179,28 @@ button:hover {
 }
 
 .team:hover {
+    scale: 95%
+}
+
+.todo {
+    background-image: url("./../images/todo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.todo:hover {
+    scale: 95%
+}
+
+.weather {
+    background-image: url("./../images/weather.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.weather:hover {
     scale: 95%
 }
 
@@ -301,12 +312,16 @@ footer a {
         background-position: 50% -2%
     }
 
-    .portfolio {
+    .team {
         background-size: cover;
-        background-position: 50% -2%
     }
 
-    .team {
+    .weather {
+        background-size: cover;
+        background-position: top center;
+    }
+
+    .todo {
         background-size: cover;
     }
 
@@ -364,11 +379,16 @@ footer a {
         background-size: cover;
     }
 
-    .portfolio {
+    .team {
         background-size: cover;
     }
 
-    .team {
+    .weather {
+        background-size: cover;
+        background-position: top center;
+    }
+
+    .todo {
         background-size: cover;
     }
 

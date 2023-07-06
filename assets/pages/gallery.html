@@ -41,7 +41,7 @@
 
     <dialog id="game-modal" class="modal">
         <h1>F + C Game</h1>
-        <img src="./../images/fc_game.png" alt="portfolio" style="height: 40vh; border: solid 3px var(--secondary)">
+        <img src="./../images/fc_game.png" alt="Game" style="height: 40vh; border: solid 3px var(--secondary)">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident officia non laudantium. Reprehenderit aut
             ipsam beatae dolorum neque praesentium, accusantium eius quod, minima quaerat facere corporis a cumque
             dolore asperiores?</p>
@@ -58,7 +58,7 @@
 
     <dialog id="movie-modal" class="modal">
         <h1>Movie Database</h1>
-        <img src="./../images/film.png" alt="portfolio" style="height: 40vh; border: solid 3px var(--secondary)">
+        <img src="./../images/film.png" alt="Movie" style="height: 40vh; border: solid 3px var(--secondary)">
         <p>A group project in which users search for movies info which are then retrieved from the OMDb API and rendered
             to the page, featuring searched movie info, notifications and api driven links to places to stream. Users
             can create a persistent favourite movie list which is saved to local storage which offers suggestions for
@@ -78,7 +78,7 @@
 
     <dialog id="wordle-modal" class="modal">
         <h1>Worldle with Server</h1>
-        <img src="./../images/wordle.png" alt="portfolio" style="height: 40vh; border: solid 3px var(--secondary)">
+        <img src="./../images/wordle.png" alt="Wordle" style="height: 40vh; border: solid 3px var(--secondary)">
         <p>This full-stack project clones the classic online word game Worldle that runs daily on the New York Times
             website. The base frameworks for this project are React, Node, Express and Json. The front-end and logic of
             the game is built and assembled in react. I also created a restful API with Express.js to GET and POST
@@ -96,28 +96,46 @@
         </div>
     </dialog>
 
-    <dialog id="portfolio-modal" class="modal">
-        <h1>Portfolio</h1>
-        <img src="./../images/react_portfolio.png" alt="portfolio"
-            style="height: 40vh; border: solid 3px var(--secondary)">
-        <p>A portfolio built in react and utilising some javascript / JSON logic to allow the user to get to know me,
-            contact me and take a look at my programming work.</p>
+    <dialog id="todo-modal" class="modal">
+        <h1>React Todo List</h1>
+        <img src="./../images/todo.png" alt="Todo" style="height: 40vh; border: solid 3px var(--secondary)">
+        <p>A todo list built in react and linking to local storage allowing me to familiarise myself with key react
+            hooks such as state and use effect.</p>
         <div>
             <div>
-                <a href="https://github.com/JamesRobertSutcliffe/react-portfolio"
+                <a href="https://github.com/JamesRobertSutcliffe/react-todo-list"
                     target="_blank"><button>GitHub</button></a>
-                <a href="https://react-portfolio-jamesrobertsutcliffe.vercel.app/"
+                <a href="https://react-todo-list-tau-orpin.vercel.app/" target="_blank"><button>WebPage</button></a>
+            </div>
+            <div>
+                <button id="todo-modal-close">Close</button>
+            </div>
+        </div>
+    </dialog>
+
+    <dialog id="weather-modal" class="modal">
+        <h1>Weather Dashboard</h1>
+        <img src="./../images/weather.png" alt="Weather" style="height: 40vh; border: solid 3px var(--secondary)">
+        <p>This weather dashboard retrieves server API data from the open weather map API, requesting specific data by
+            creating URL's with specific parameters and then rendering this data dynamically to the HTML document. The
+            project pulls data from both the daily and 5 day forecasts to present the user with weather over both
+            periods. </p>
+        <div>
+            <div>
+                <a href="https://github.com/JamesRobertSutcliffe/weather-dashboard"
+                    target="_blank"><button>GitHub</button></a>
+                <a href="https://jamesrobertsutcliffe.github.io/weather-dashboard/"
                     target="_blank"><button>WebPage</button></a>
             </div>
             <div>
-                <button id="portfolio-modal-close">Close</button>
+                <button id="weather-modal-close">Close</button>
             </div>
         </div>
     </dialog>
 
     <dialog id="team-modal" class="modal">
         <h1>Team Profile Builder</h1>
-        <img src="./../images/team.png" alt="portfolio" style="height: 40vh; border: solid 3px var(--secondary)">
+        <img src="./../images/team.png" alt="team" style="height: 40vh; border: solid 3px var(--secondary)">
         <p>The team profile generator is a backend node.js command line application that takes in user information to
             build a software engineering team, then generates CSS styled HTML document displaying information on team
             members.</p>
@@ -169,14 +187,25 @@
                     </div>
                 </div>
             </div>
-            <div class="portfolio">
+            <div class="todo">
                 <div class="bottom-block">
                     <div>
-                        <h2>Portfolio</h2>
-                        <p>REACT | JSON | BOOTSTAP</p>
+                        <h2>React Todo List</h2>
+                        <p>REACT | CSS</p>
                     </div>
                     <div>
-                        <button id="portfolio-modal-open">More Info</button>
+                        <button id="todo-modal-open">More Info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="weather">
+                <div class="bottom-block">
+                    <div>
+                        <h2>Weather Dashboard</h2>
+                        <p>HTML | CSS | JS</p>
+                    </div>
+                    <div>
+                        <button id="weather-modal-open">More Info</button>
                     </div>
                 </div>
             </div>
