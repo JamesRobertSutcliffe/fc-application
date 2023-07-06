@@ -14,6 +14,9 @@ const portfolioModal = document.getElementById('portfolio-modal');
 const openTeam = document.getElementById('team-modal-open');
 const closeTeam = document.getElementById('team-modal-close');
 const teamModal = document.getElementById('team-modal');
+const openGame = document.getElementById('game-modal-open');
+const closeGame = document.getElementById('game-modal-close');
+const gameModal = document.getElementById('game-modal');
 
 openMovie.addEventListener("click", () => {
     movieModal.showModal();
@@ -45,4 +48,12 @@ openTeam.addEventListener("click", () => {
 
 closeTeam.addEventListener("click", () => {
     teamModal.close();
+})
+
+openGame.addEventListener("click", () => {
+    gameModal.showModal();
+})
+
+closeGame.addEventListener("click", () => {
+    gameModal.close();
 })

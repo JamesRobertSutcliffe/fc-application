@@ -138,7 +138,7 @@ button:hover {
 /* Image cards */
 
 .fc-game {
-    background-image: url("./../images/hobby.png");
+    background-image: url("./../images/fc_game.png");
     background-size: contain;
     background-repeat: no-repeat;
     transition: 0.5s;
@@ -289,6 +289,7 @@ footer a {
 
     .fc-game {
         background-size: cover;
+        background-position: center center;
     }
 
     .movie-database {
@@ -352,6 +353,7 @@ footer a {
 
     .fc-game {
         background-size: cover;
+        background-position: 45%;
     }
 
     .movie-database {

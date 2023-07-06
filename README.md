@@ -4,8 +4,8 @@ to do now:
 
 6 - add game to gallery / add more projects
 7 - add codewars icons in footer
-5 - add colour switchers
 8 - write 2 blog posts and link - / coding journey / diversity - add linsk to about me page
+5 - add colour switchers
 
 GAME:
 
