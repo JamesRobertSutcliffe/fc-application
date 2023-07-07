@@ -9,6 +9,7 @@ to do now:
 5 - Read me for application game
 6 - Application form
 
+
 GAME:
 
 - add another game mode?
