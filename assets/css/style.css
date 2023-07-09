@@ -9,6 +9,15 @@
     --dark-brown: #484838;
 }
 
+/* :root {
+    --primary: rgb(10, 68, 61);
+    --secondary: rgb(252, 252, 212);
+    --tertiary: #649b92;
+    --other: #649b92;
+    --light-brown: #c3c39d;
+    --dark-brown: #484838;
+} */
+
 * {
     box-sizing: border-box;
     line-height: normal;
