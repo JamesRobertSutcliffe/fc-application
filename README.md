@@ -20,3 +20,8 @@ GAME:
 
 
 
+Colour switchers -
+
+1 - Colour alternatives have been set in comments of CSS files
+2 - Ensure images have backgrounds set
+3 - build logic and buttons for switchers
