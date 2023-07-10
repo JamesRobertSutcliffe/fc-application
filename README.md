@@ -16,12 +16,9 @@ GAME:
 - add another game mode?
 - add testing for functions?
 
-
-
-
-
 Colour switchers -
 
-1 - Colour alternatives have been set in comments of CSS files
-2 - Ensure images have backgrounds set
-3 - build logic and buttons for switchers
+1 - build button aestetics for switcher
+2 - transfer logic to other pages
+
+!! Ensure I understand all code !!
