@@ -1,4 +1,4 @@
-/* Global Values */
+/* Global Colour Values */
 
 :root {
     --primary: rgb(252, 252, 212);
@@ -9,14 +9,24 @@
     --dark-brown: #484838;
 }
 
-/* :root {
+/* Colour switch values */
+
+.dark-theme {
     --primary: rgb(10, 68, 61);
     --secondary: rgb(252, 252, 212);
     --tertiary: #649b92;
     --other: #649b92;
     --light-brown: #c3c39d;
     --dark-brown: #484838;
-} */
+}
+
+
+.img-back {
+    background-color: rgb(10, 68, 61);
+    border-radius: 50%;
+}
+
+/* Global formatting */
 
 * {
     box-sizing: border-box;
