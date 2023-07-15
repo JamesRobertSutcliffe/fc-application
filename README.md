@@ -29,10 +29,13 @@ https://jamesrobertsutcliffe.github.io/fc-application/
 
 The website is intuitive and straightforward to use on desktop and mobile. There are some features to look out for. 
 
-Please click on the button on the top left of each page to switch between lighter and darker colour schemes.
+1 - Click on the button at the top left of each page to switch between lighter and darker colour schemes.
 
 ![Toggle](assets/images/color_toggle.png)
 
+2 - On desktop, hover over flex-boxes to reveal more text.
+
+![Boxes](assets/images/boxes.png)
 
 ## Credits
 
