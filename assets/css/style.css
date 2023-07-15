@@ -17,7 +17,7 @@
     --tertiary: #649b92;
     --other: #649b92;
     --light-brown: #c3c39d;
-    --dark-brown: #484838;
+    --dark-brown: #c3c39d;
 }
 
 
@@ -31,7 +31,7 @@
     background-color: var(--secondary);
     width: 35px;
     height: 35px;
-    transition: 0.75s;
+    transition: 0.5s;
     margin: 2px;
 }
 
@@ -44,7 +44,7 @@
 .theme-btn-div {
     background-color: var(--secondary);
     display: inline-block;
-    transition: 0.75s;
+    transition: 0.5s;
 }
 
 /* Global formatting */

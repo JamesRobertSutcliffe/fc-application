@@ -9,11 +9,9 @@ to do now:
 Possibly - 
 
 Website - 
-- connect an API? - quote of the day? (Maybe not)
-- Colour switcher? 
+- Colour switcher
 
 GAME:
-- add another game mode? (maybe not)
 - add testing for functions? (testing in vanilla JS)
 
 Colour switchers -
