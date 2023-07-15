@@ -4,7 +4,7 @@
 
 ![Homepage](assets/images/homepage.png)
 
-This founders and coders application website is a muiltipage website built using HTML, CSS and Vanilla javascript. The website ties together the things I have learned and worked on during my code learning journey.The website has a clear design and colour scheme, with links to blog posts I have written about my coding journey, as well as a project gallery with links to github repositories and deployed sites of projects that I have developed. There is a colour switcher in the top left of the screen that toggles between colour themes and some CSS animations and effects to make the user's interaction with the site interesting and enjoyable. The site also contains a footer with links to my LinkedIn, GitHub, Codewars and contact information. The website is mobile friendly, with a flexbox and media queries utilised to make the website responsive to screen size. 
+This founders and coders application website is a muiltipage website built using HTML, CSS and Vanilla javascript. The website ties together the things I have learned and worked on during my code learning journey. The website has a clear design and colour scheme, with links to blog posts I have written about my coding journey, as well as a project gallery with links to github repositories and deployed sites of projects that I have developed. There is a colour switcher in the top left of the screen that toggles between colour themes and some CSS animations and effects to make the user's interaction with the site interesting and enjoyable. The site also contains a footer with links to my LinkedIn, GitHub, Codewars and contact information. The website is mobile friendly, with a flexbox and media queries utilised to make the website responsive to screen size. 
 
 ![Homepage](assets/images/projects.png)
 
@@ -27,13 +27,12 @@ https://jamesrobertsutcliffe.github.io/fc-application/
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+The website is intuitive and straightforward to use on desktop and mobile. There are some features to look out for. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Please click on the button on the top left of each page to switch between lighter and darker colour schemes.
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![Toggle](assets/images/color_toggle.png)
+
 
 ## Credits
 
