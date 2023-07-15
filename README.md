@@ -17,7 +17,7 @@ My motivation in building this project is to showcase my web development skills 
 - [Credits](#credits)
 - [License](#license)
 - [Features](#features)
-- [UseOfAI](#useofai)
+- [AI](#ai)
 
 ## Installation
 
