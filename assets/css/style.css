@@ -29,7 +29,6 @@
 .theme-btn {
     border: solid 10px var(--primary);
     background-color: var(--secondary);
-    color: transparent;
     width: 35px;
     height: 35px;
     transition: 0.75s;
@@ -38,6 +37,8 @@
 
 .theme-btn:hover {
     cursor: pointer;
+    border: solid 10px var(--secondary);
+    background-color: var(--primary);
 }
 
 .theme-btn-div {
