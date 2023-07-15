@@ -29,36 +29,45 @@ https://jamesrobertsutcliffe.github.io/fc-application/
 
 The website is intuitive and straightforward to use on desktop and mobile. There are some features to look out for. 
 
-1 - Click on the button at the top left of each page to switch between lighter and darker colour schemes.
+- Click on the button at the top left of each page to switch between lighter and darker colour schemes.
 
 ![Toggle](assets/images/color_toggle.png)
 
-2 - On desktop, hover over flex-boxes to reveal more text.
+- On desktop, hover over flex-boxes to reveal more text.
 
 ![Boxes](assets/images/boxes.png)
 
 ## Credits
 
-- Credit F + C for website prompt, f + c community, staff and mentors for supporting and welcoming me. 
+- The Founders and Coders community for setting this task and supporting me throughout. 
 
-Link to site
+https://www.foundersandcoders.com/
 
-Web Dev simplified for modals. -- link
+- Web Dev simplified YouTube channel for providing a tutorial on creatings modals in HTML, CSS and JS.
 
-Chat GPT as co-pilot.
+https://www.youtube.com/@WebDevSimplified
+
+- Chat GPT for acting co-piloting the development of this website. See AI section at bottom of this doc for more in depth information on the utilisation.
+
+https://openai.com/blog/chatgpt
 
 ## License
 
-MIT License
+MIT License.
 
-## Badges
+<!-- ## Badges
 
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time. -->
 
 ## Features
 
-If your project has a lot of features, list them here.
+- Multi page.
+- Defined colour scheme with colour toggle button.
+- CSS animations and interactive effects. 
+- Embedded links to my medium coding blog using external widget API.
+- Responsive to screen size. 
+- Modals.
 
 ## AI
