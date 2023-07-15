@@ -59,4 +59,4 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
 
 If your project has a lot of features, list them here.
 
-## Use of AI
+## AI
