@@ -9,15 +9,43 @@
     --dark-brown: #484838;
 }
 
-/* :root {
+/* Colour switch values */
+
+.dark-theme {
     --primary: rgb(10, 68, 61);
     --secondary: rgb(252, 252, 212);
-    --tertiary: #c3fcf2;
+    --tertiary: #649b92;
     --other: #649b92;
     --light-brown: #c3c39d;
-    --dark-brown: #484838;
-} */
+    --dark-brown: #c3c39d;
+}
 
+
+.img-back {
+    background-color: rgb(10, 68, 61);
+    border-radius: 50%;
+}
+
+.theme-btn {
+    border: solid 10px var(--primary);
+    background-color: var(--secondary);
+    width: 35px;
+    height: 35px;
+    transition: 0.5s;
+    margin: 2px;
+}
+
+.theme-btn:hover {
+    cursor: pointer;
+    border: solid 10px var(--secondary);
+    background-color: var(--primary);
+}
+
+.theme-btn-div {
+    background-color: var(--secondary);
+    display: inline-block;
+    transition: 0.5s;
+}
 
 
 * {
