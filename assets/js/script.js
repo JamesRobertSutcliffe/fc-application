@@ -4,7 +4,6 @@ const imgBack = document.querySelectorAll('#img-back');
 // Function to toggle the color theme
 function toggleTheme() {
     const body = document.body;
-    const root = document.documentElement;
 
     // Toggle the values of CSS variables
     if (body.classList.contains('dark-theme')) {
