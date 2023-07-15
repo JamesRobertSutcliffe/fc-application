@@ -12,6 +12,8 @@ Provide a short description explaining the what, why, and how of your project. U
 This founders and coders application website is a muiltipage website built using HTML, CSS and Vanilla javascript. The website showcases my web development skills and ties together the things I have learned and worked on code learning journey.The website has a clear design and colour scheme, with links to blog posts I have written about my coding journey, as well as a project gallery with links to github repositories and deployed sites of projects that I have developed. There is a colour switcher in the top left of the screen that toggles between colour themes and some CSS animations and effects to make the user's interaction with the site interesting and enjoyable. The site also contains a footer with links to my LinkedIn, GitHub, Codewars and contact information. The website is mobile friendly. 
 
 
+
+
 My motivation in building this project is to showcase my web development skills 
 
 ## Table of Contents (Optional)
