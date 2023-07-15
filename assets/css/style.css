@@ -26,6 +26,26 @@
     border-radius: 50%;
 }
 
+.theme-btn {
+    border: solid 10px var(--primary);
+    background-color: var(--secondary);
+    color: transparent;
+    width: 35px;
+    height: 35px;
+    transition: 0.75s;
+    margin: 2px;
+}
+
+.theme-btn:hover {
+    cursor: pointer;
+}
+
+.theme-btn-div {
+    background-color: var(--secondary);
+    display: inline-block;
+    transition: 0.75s;
+}
+
 /* Global formatting */
 
 * {
