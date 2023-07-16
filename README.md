@@ -65,3 +65,13 @@ MIT License.
 - Modals.
 
 ## AI
+
+I have utilised chat GPT as a co-pilot when building this website. Below are some examples of prompts I used in aid of this project.  
+
+- To refresh my knowledge of DOM method query selector all and it's functionality. 
+
+![Toggle](assets/images/query.png)
+
+- To help me build the color theme toggle feature.
+
+![Toggle](assets/images/toggle.png)
